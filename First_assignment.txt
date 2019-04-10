@@ -1,7 +1,4 @@
-Hello Students,
-
-This is what you have to do for homework.
-Remember the deadline to submit the HW is Wenesday at 8:00:00 am.
+First Assignment
 
 I. Read chapter 2 from the book Introduction to Scientific Computing for Biologists Author.   
 The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploads/2014/05/IntroSciComp2014.pdf
@@ -38,15 +35,3 @@ II. Answer the following question. What does this do?
 - sort the names.txt file in reverse order 
 
 *All answers were completed based on information from "Introduction to Scientific Computing for Biologists" and explainshell.com
-
-**IMPORTANT** 
-To submit your answers you must do the following:
-- Login into hoffman.
-- Clone this repository in your home directory.
-- Include your answers in this document using nano (Remember "CTR + X" save the document in nano).
-- Save your changes and push them to your repository. 
-*Note*:If you are NOT sure on how to do this go to Vertion control documents available online
-
-Let me know if you have questions. You can also post your questions in the Discussion forum of the course website.
-
-Daniel
