@@ -5,33 +5,33 @@ The book is downloadable here: https://allesinalab.uchicago.edu/wp-content/uploa
 
 II. Answer the following question. What does this do?   
 
-1. ls [A-Z]*
+1. ls [A-Z]* # Correct !
 - list files in a directory starting with upper-case letters and following with zero or more characters.
-2. cp *.sh /tmp
+2. cp *.sh /tmp # Correct !
 - copy files ending in .sh into the temporary directory /tmp. 
-3. man pwd
+3. man pwd # Correct !
 - help manual for the pwd function (pwd shows the working directory)
-4. cd ~
+4. cd ~ # Correct !
 - move to the home directory
-5. mkdir -p /test1/test2/test3
+5. mkdir -p /test1/test2/test3 # Correct! But -p is doing ????
 - make directories test 1, test 2, and test 3. Directory test 3 is in directory test 2, and test 2 is in directory test 1. 
-6. cp -r /tmp .
+6. cp -r /tmp . # Correct !
 - recursively copy all files in the temporary /tmp directory to the current directory.
-7. ls | less
+7. ls | less # Correct !
 - pipe to list files in directory and then progressively print files to the screen
-8. head -n 24 test.txt » abc.txt
+8. head -n 24 test.txt » abc.txt # Correct !
 - print the first 24 lines of the test.txt file and save as a new file called abc.txt
-9. echo "aaa" > aaa.txt
+9. echo "aaa" > aaa.txt # Correct !
 - print a string of "aaa" and save as a txt. file called aaa.txt
-10. ps -u sallesina
+10. ps -u sallesina # Correct
 - print a snapshot of current processes from the user sallesina
-11. top
+11. top # Correct !
 - display Linux tasks
-12. ls | grep .sh | xargs mv /tmp
+12. ls | grep .sh | xargs mv /tmp # Correct ! But how xargs is usefuel here ???>
 - pipe to list files in a directory, then grab the .sh files, and finally move all those files to the temporary directory /tmp
-13. du -sk /home/* | sort -r -n | head -10
+13. du -sk /home/* | sort -r -n | head -10  # Correct !
 - pipe to estimate disk storage of all files in the /home directory, recursively sort the files by size, and print the first 10 lines of the sorted list
-14. sort -r names.txt
+14. sort -r names.txt  # Correct !
 - sort the names.txt file in reverse order 
 
 *All answers were completed based on information from "Introduction to Scientific Computing for Biologists" and explainshell.com
